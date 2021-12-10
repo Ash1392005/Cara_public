@@ -13,7 +13,7 @@
   ],
   "website": "https://github.com/iamherok/Cara_public#readme",
   "repository": "https://github.com/iamherok/Cara_public.git",
-  "logo": "https://www.digitalartsonline.co.uk/cmsdata/slideshow/3441290/6.jpg",
+  "logo": "https://images.app.goo.gl/1FhBu9bz7zy5ZKRZ6",
   "success_url": "/",
   "env": {
       "PREFIX": {
@@ -35,19 +35,19 @@
       },
       "GOOGLE_API_KEY": {
           "description": "Google API key for Google searches (Not Required)",
-          "required": false
+          "required": true
       },
       "CHAT_BOT_URL": {
           "description": "BrainShop API Brain url",
-          "required": false
+          "required": true
       },
       "TENOR_API_KEY": {
           "description": "A key used for gif searches",
-          "required": false
+          "required": true
       },
       "GENIUS_KEY": {
           "description": "Your access token of genius.com to fetch the lyrics",
-          "required": false
+          "required": true
       }
   },
   "buildpacks": [
